@@ -1,0 +1,3273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - tms_test_ls@172.20.4.206" uuid="ec49f596-2a28-457a-ac80-35574d406367">
+    <database-info product="MySQL" version="5.5.38-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="account_server">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="db_base_idgen"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="mysql"/>
+      <schema id="5" name="new_tms_test"/>
+      <schema id="6" name="ntms"/>
+      <schema id="7" name="performance_schema"/>
+      <schema id="8" name="position"/>
+      <schema id="9" name="rxtms2"/>
+      <schema id="10" name="test"/>
+      <schema id="11" name="tms"/>
+      <schema id="12" name="tms2"/>
+      <schema id="13" name="tms_3_69"/>
+      <schema id="14" name="tms_test"/>
+      <schema id="15" name="tms_test_1"/>
+      <schema id="16" name="tms_test_ls"/>
+      <schema id="17" name="tms_wf"/>
+      <schema id="18" name="tompay_tms"/>
+      <schema id="19" name="xtms"/>
+      <schema id="20" name="xtms2"/>
+      <schema id="21" name="xtms_auth"/>
+      <schema id="22" name="xtms_trust"/>
+      <schema id="23" name="z_base"/>
+      <table id="24" parent="1" name="t_acc_virture_rel">
+        <comment>清算单元表(资金户与实户绑定)</comment>
+      </table>
+      <table id="25" parent="1" name="t_account_func">
+        <comment>账户业务功能表</comment>
+      </table>
+      <table id="26" parent="1" name="t_agent_fitting_price_info">
+        <comment>代理商配件价格</comment>
+      </table>
+      <table id="27" parent="1" name="t_agent_machine_detail">
+        <comment>代理商机具详情表</comment>
+      </table>
+      <table id="28" parent="1" name="t_agent_machine_info">
+        <comment>代理商机具信息表</comment>
+      </table>
+      <table id="29" parent="1" name="t_agent_machine_price">
+        <comment>代理商机具价格表</comment>
+      </table>
+      <table id="30" parent="1" name="t_agent_user">
+        <comment>代理商</comment>
+      </table>
+      <table id="31" parent="1" name="t_app">
+        <comment>终端应用信息表</comment>
+      </table>
+      <table id="32" parent="1" name="t_areacode">
+        <comment>地区代码表</comment>
+      </table>
+      <table id="33" parent="1" name="t_baccount">
+        <comment>企业虚户</comment>
+      </table>
+      <table id="34" parent="1" name="t_bank">
+        <comment>BANK</comment>
+      </table>
+      <table id="35" parent="1" name="t_buser">
+        <comment>商户表（经营实体）</comment>
+      </table>
+      <table id="36" parent="1" name="t_caccount">
+        <comment>个人虚户，可能会有类似预付费卡这种本支付系统并没有实际资金对应的情况</comment>
+      </table>
+      <table id="37" parent="1" name="t_card"/>
+      <table id="38" parent="1" name="t_channel">
+        <comment>渠道表</comment>
+      </table>
+      <table id="39" parent="1" name="t_contacts">
+        <comment>联系人表</comment>
+      </table>
+      <table id="40" parent="1" name="t_credit_limits">
+        <comment>信用额度表</comment>
+      </table>
+      <table id="41" parent="1" name="t_credit_limits_relation">
+        <comment>信用额度关联表</comment>
+      </table>
+      <table id="42" parent="1" name="t_cuser">
+        <comment>C端用户表即个人使用某种业务形成的个人用户表</comment>
+      </table>
+      <table id="43" parent="1" name="t_device">
+        <comment>设备表</comment>
+      </table>
+      <table id="44" parent="1" name="t_device_fitting">
+        <comment>设备配件关联表</comment>
+      </table>
+      <table id="45" parent="1" name="t_log"/>
+      <table id="46" parent="1" name="t_mcc">
+        <comment>MCC</comment>
+      </table>
+      <table id="47" parent="1" name="t_mercertificates">
+        <comment>三证一表</comment>
+      </table>
+      <table id="48" parent="1" name="t_merchant_rate">
+        <comment>费率表</comment>
+      </table>
+      <table id="49" parent="1" name="t_merchant_rate_log"/>
+      <table id="50" parent="1" name="t_merchant_rate_relation">
+        <comment>费率关联表</comment>
+      </table>
+      <table id="51" parent="1" name="t_merchant_term_assoc">
+        <comment>商户终端关联表</comment>
+      </table>
+      <table id="52" parent="1" name="t_model">
+        <comment>机型表</comment>
+      </table>
+      <table id="53" parent="1" name="t_order_base">
+        <comment>订单基础表</comment>
+      </table>
+      <table id="54" parent="1" name="t_order_extend_tms">
+        <comment>订单扩展表-TMS父订单</comment>
+      </table>
+      <table id="55" parent="1" name="t_order_extend_tms_sub">
+        <comment>订单扩展表-TMS子订单</comment>
+      </table>
+      <table id="56" parent="1" name="t_order_mq_topic">
+        <comment>MQ订阅表</comment>
+      </table>
+      <table id="57" parent="1" name="t_order_type">
+        <comment>订单类型表</comment>
+      </table>
+      <table id="58" parent="1" name="t_order_update_journal">
+        <comment>订单变更流水</comment>
+      </table>
+      <table id="59" parent="1" name="t_parts">
+        <comment>配件表</comment>
+      </table>
+      <table id="60" parent="1" name="t_pay_account">
+        <comment>嘉联付款账号</comment>
+      </table>
+      <table id="61" parent="1" name="t_pay_channel">
+        <comment>转账通道</comment>
+      </table>
+      <table id="62" parent="1" name="t_payaccinfo">
+        <comment>实户表</comment>
+      </table>
+      <table id="63" parent="1" name="t_product">
+        <comment>产品表</comment>
+      </table>
+      <table id="64" parent="1" name="t_product_certificate_info">
+        <comment>产品证书文件信息表</comment>
+      </table>
+      <table id="65" parent="1" name="t_profit">
+        <comment>分润表</comment>
+      </table>
+      <table id="66" parent="1" name="t_profit_main_rule">
+        <comment>分润主规则</comment>
+      </table>
+      <table id="67" parent="1" name="t_profit_stages_ratio">
+        <comment>交易金额分阶分润比表</comment>
+      </table>
+      <table id="68" parent="1" name="t_service">
+        <comment>管理支付系统所有支持的业务和服务，服务从属于业务，如预付费卡-发卡，预付费卡是一种业务而发卡是一种服务</comment>
+      </table>
+      <table id="69" parent="1" name="t_split_profit_roles">
+        <comment>分润角色表</comment>
+      </table>
+      <table id="70" parent="1" name="t_term_app">
+        <comment>终端应用关联表</comment>
+      </table>
+      <table id="71" parent="1" name="t_term_app_log">
+        <comment>终端应用关联日志表</comment>
+      </table>
+      <table id="72" parent="1" name="t_term_contact">
+        <comment>终端联系人关联表</comment>
+      </table>
+      <table id="73" parent="1" name="t_terminal">
+        <comment>终端设备关联表</comment>
+      </table>
+      <table id="74" parent="1" name="t_terminal_log">
+        <comment>终端设备关联日志表</comment>
+      </table>
+      <table id="75" parent="1" name="t_terminaltransaction_log">
+        <comment>支付流水表</comment>
+      </table>
+      <table id="76" parent="1" name="t_trdtypeconst">
+        <comment>交易类型常量表</comment>
+      </table>
+      <table id="77" parent="1" name="t_user">
+        <comment>社会域，唯一确定一个自然人，用户帐号是第一次进入系统（即注册流程）建立的&#xd;
+用户的身份信息，如邮箱，身份证，手机等</comment>
+      </table>
+      <table id="78" parent="1" name="t_vacc_bankacc_assoc">
+        <comment>清算单元表(资金户与实户绑定)</comment>
+      </table>
+      <table id="79" parent="1" name="t_vid">
+        <comment>vid表</comment>
+      </table>
+      <table id="80" parent="1" name="t_vid_vaccount_rel">
+        <comment>VID和资金域的对应关系</comment>
+      </table>
+      <column id="81" parent="24" name="PKID">
+        <comment>清算单元应该和会计科目进行绑定，实现虚户到实户资金流动的路由</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="82" parent="24" name="VACCID">
+        <comment>资金户口ID（虚户id）</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="83" parent="24" name="ACCOUNTNUM">
+        <comment>实户id</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="84" parent="24" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="85" parent="24" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="86" parent="24" name="STATUS">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="87" parent="24" name="PRIMARY">
+        <columns>PKID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="88" parent="25" name="ACCOUNT_USAGE_ID">
+        <mandatory>1</mandatory>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="89" parent="25" name="BUSINESSID">
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="90" parent="25" name="SERVICEID">
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="91" parent="25" name="ACCOUNT_USAGE_DESC">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <key id="92" parent="25" name="PRIMARY">
+        <columns>ACCOUNT_USAGE_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="93" parent="26" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="94" parent="26" name="agentId">
+        <comment>代理商id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="95" parent="26" name="fittingType">
+        <comment>配件类型</comment>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="96" parent="26" name="price">
+        <comment>价格</comment>
+        <data-type>decimal(10)|0</data-type>
+      </column>
+      <column id="97" parent="26" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="98" parent="26" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <index id="99" parent="26" name="agentId_fittingType">
+        <columns>agentId
+fittingType</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="100" parent="26" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="101" parent="26" name="agentId_fittingType">
+        <columns>agentId
+fittingType</columns>
+        <underlying-index>agentId_fittingType</underlying-index>
+      </key>
+      <column id="102" parent="27" name="id">
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="103" parent="27" name="machineInfoId">
+        <comment>机具信息id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="104" parent="27" name="machType">
+        <comment>机器型号</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="105" parent="27" name="communitionWay">
+        <comment>通讯方式 1- 无线 2- 有线 3-网络</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="106" parent="27" name="cardFee">
+        <comment>卡费</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="107" parent="27" name="deposit">
+        <comment>押金</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="108" parent="27" name="monthlyRent">
+        <comment>月租</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="109" parent="27" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="110" parent="27" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="111" parent="27" name="startEffectiveTime">
+        <comment>开始生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="112" parent="27" name="endEffectiveTime">
+        <comment>结束生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="113" parent="27" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废   4- 待审核</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="114" parent="27" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="115" parent="28" name="id">
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="116" parent="28" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="117" parent="28" name="providedForm">
+        <comment>机具提供形式 1- 租赁 2- 购买</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="118" parent="28" name="payWay">
+        <comment>押金/购买金支付形式:1-代理商分润中扣除;2-刷卡;3-转账;4-其它;5-货到付款;6-款到发货</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="119" parent="28" name="depositDebitedForm">
+        <comment>押金扣取方式1-扣代理商;2-扣商户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="120" parent="28" name="monthlyRentalChargeForm">
+        <comment>月租扣款方式 1-扣代理商;2-扣商户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="121" parent="28" name="machinePriceSetWay">
+        <comment>机器价格收取方式 1-当月新增终端数2-存量终端数</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="122" parent="28" name="buyWay">
+        <comment>购买渠道</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="123" parent="28" name="cost">
+        <comment>成本</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="124" parent="28" name="profitRatio">
+        <comment>分润比</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="125" parent="28" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="126" parent="28" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="127" parent="28" name="startEffectiveTime">
+        <comment>开始生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="128" parent="28" name="endEffectiveTime">
+        <comment>结束生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="129" parent="28" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废   4- 待审核</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="130" parent="28" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="131" parent="29" name="id">
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="132" parent="29" name="machineDetailId">
+        <comment>机具详情id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="133" parent="29" name="startCount">
+        <comment>起始台数</comment>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="134" parent="29" name="endCount">
+        <comment>终止台数</comment>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="135" parent="29" name="price">
+        <comment>价格</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="136" parent="29" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="137" parent="29" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="138" parent="29" name="startEffectiveTime">
+        <comment>开始生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="139" parent="29" name="endEffectiveTime">
+        <comment>结束生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="140" parent="29" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废   4- 待审核</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="141" parent="29" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="142" parent="30" name="BUID">
+        <comment>帐户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="143" parent="30" name="UserId">
+        <comment>用户id(大Uid)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="144" parent="30" name="developersId">
+        <comment>发展者id(这个商户由随发展而来)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="145" parent="30" name="BUSINESSID">
+        <comment>产品id</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="146" parent="30" name="roletype">
+        <comment>角色 1.商户 2 代理商 3 业务员 4.C端用户 5.运维人员 6.系统管理员 7-普通用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="147" parent="30" name="BUNAME">
+        <comment>代理商名称</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="148" parent="30" name="PASSWORD">
+        <comment>md5加密的密码</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="149" parent="30" name="ADDITIONAL_INFO">
+        <comment>备注</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="150" parent="30" name="RIGISTER_SOURCE">
+        <comment>数据来源 MPAY APP</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="151" parent="30" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="152" parent="30" name="CREATETIME">
+        <comment>信息录入日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="153" parent="30" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="154" parent="30" name="loginName">
+        <comment>登录名</comment>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="155" parent="30" name="email">
+        <comment>邮箱</comment>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="156" parent="30" name="phone">
+        <comment>手机号码</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="157" parent="30" name="nikeName">
+        <comment>昵称</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <index id="158" parent="30" name="I_BUNAME">
+        <columns>BUNAME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="159" parent="30" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="160" parent="30" name="PRIMARY">
+        <columns>BUID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="161" parent="31" name="appId">
+        <comment>应用ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="162" parent="31" name="appName">
+        <comment>应用名称</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="163" parent="31" name="status">
+        <comment>状态  1-启用</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="164" parent="31" name="createTime">
+        <data-type>timestamp|0</data-type>
+      </column>
+      <column id="165" parent="31" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="166" parent="31" name="PRIMARY">
+        <columns>appId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="167" parent="32" name="AREACODE">
+        <comment>地区代码</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="168" parent="32" name="AREANAME">
+        <comment>地区名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="169" parent="32" name="AREALEVEL">
+        <comment>级别,&apos;0001&apos;省级,&apos;0002&apos;县级，&apos;0003&apos;地级，&apos;0004&apos;县市级，&apos;0005&apos;市级，&apos;0006&apos;县</comment>
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="170" parent="32" name="CITY">
+        <comment>所在市</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="171" parent="32" name="PROVINCE">
+        <comment>所在省</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="172" parent="32" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="173" parent="32" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="174" parent="32" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="175" parent="32" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="176" parent="32" name="PRIMARY">
+        <columns>AREACODE
+AREANAME</columns>
+        <primary>1</primary>
+      </key>
+      <column id="177" parent="33" name="BACCOUNTID">
+        <comment>资金户口ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="178" parent="33" name="UserId">
+        <comment>用户id(大Uid)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="179" parent="33" name="BACCOUNTNAME">
+        <comment>登录名</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="180" parent="33" name="PASSWORD">
+        <comment>登陆密码md</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="181" parent="33" name="ACCOUNTTYPE">
+        <comment>资金户账户类型 224111 –充值过渡户224110-基本存款户  224112-提现过渡户 122111 –待缴费户  220302 –押金专户 220301-租金专户</comment>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="182" parent="33" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="183" parent="33" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="184" parent="33" name="STATE">
+        <comment>激活/删除状态</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="185" parent="33" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <key id="186" parent="33" name="PRIMARY">
+        <columns>BACCOUNTID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="187" parent="34" name="BANKCODE">
+        <comment>开户行行号</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(12)|0</data-type>
+      </column>
+      <column id="188" parent="34" name="BANKNAME">
+        <comment>行别代码，对应web_user.bankcode.bankcode</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="189" parent="34" name="BRANCHNAME">
+        <comment>支行名称</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="190" parent="34" name="CLEARINGBANK">
+        <comment>清算行行号</comment>
+        <data-type>char(12)|0</data-type>
+      </column>
+      <column id="191" parent="34" name="RECKFLAG">
+        <comment>清算标识</comment>
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="192" parent="34" name="INTEGCPBANK">
+        <comment>集中受理行行号,目前只对广州结算中心起作用，当找不到清算行的时候，可以查找同个地区的集中受理行行号作为清算行</comment>
+        <data-type>char(12)|0</data-type>
+      </column>
+      <column id="193" parent="34" name="AREACODE">
+        <comment>地区代码</comment>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="194" parent="34" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="195" parent="34" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="196" parent="34" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="197" parent="34" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="198" parent="34" name="PRIMARY">
+        <columns>BANKCODE</columns>
+        <primary>1</primary>
+      </key>
+      <column id="199" parent="35" name="BUID">
+        <comment>帐户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="200" parent="35" name="UserId">
+        <comment>用户id(大Uid)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="201" parent="35" name="developersId">
+        <comment>发展者id(这个商户由随发展而来)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="202" parent="35" name="BUSINESSID">
+        <comment>产品id</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="203" parent="35" name="roletype">
+        <comment>角色 1.商户 2 代理商 3 业务员 4.C端用户 5.运维人员 6.系统管理员 7-普通用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="204" parent="35" name="BUNAME">
+        <comment>商户名称</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="205" parent="35" name="PASSWORD">
+        <comment>md5加密的密码</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="206" parent="35" name="ADDITIONAL_INFO">
+        <comment>备注</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="207" parent="35" name="RIGISTER_SOURCE">
+        <comment>数据来源 MPAY APP</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="208" parent="35" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="209" parent="35" name="CREATETIME">
+        <comment>信息录入日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="210" parent="35" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="211" parent="35" name="loginName">
+        <comment>登录名</comment>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="212" parent="35" name="email">
+        <comment>邮箱</comment>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="213" parent="35" name="phone">
+        <comment>手机号码</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="214" parent="35" name="nikeName">
+        <comment>昵称</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <index id="215" parent="35" name="I_BUNAME">
+        <columns>BUNAME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="216" parent="35" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="217" parent="35" name="PRIMARY">
+        <columns>BUID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="218" parent="36" name="CACCOUNTID">
+        <comment>资金户口ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="219" parent="36" name="UserId">
+        <comment>用户id(大Uid)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="220" parent="36" name="CACCOUNTNAME">
+        <comment>登录名</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="221" parent="36" name="PASSWORD">
+        <comment>登陆密码md5</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="222" parent="36" name="ACCOUNTTYPE">
+        <comment>资金户账户类型 224111 –充值过渡户224110-基本存款户  224112-提现过渡户 122111 –待缴费户  220302 –押金专户 220301-租金专户</comment>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="223" parent="36" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="224" parent="36" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="225" parent="36" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="226" parent="36" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="227" parent="36" name="roleType">
+        <comment>角色类型 1.商户 2 代理商</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="228" parent="36" name="PRIMARY">
+        <columns>CACCOUNTID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="229" parent="37" name="auto_id">
+        <mandatory>1</mandatory>
+        <data-type>int(18)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="230" parent="37" name="card_code">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="231" parent="37" name="card_name">
+        <data-type>varchar(80)|0</data-type>
+      </column>
+      <column id="232" parent="37" name="rules">
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="233" parent="37" name="card_range">
+        <data-type>varchar(24)|0</data-type>
+      </column>
+      <column id="234" parent="37" name="card_type">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="235" parent="37" name="accno_len">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="236" parent="37" name="bank_name">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <key id="237" parent="37" name="PRIMARY">
+        <columns>auto_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="238" parent="38" name="CHAN_INT_ID">
+        <comment>渠道接口id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="239" parent="38" name="CHAN_INT_NAME">
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="240" parent="38" name="CHAN_SRV_NAME">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="241" parent="38" name="CHAN_MER_ID">
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="242" parent="38" name="CHAN_MER_NAME">
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="243" parent="38" name="CHAN_MER_CODE">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="244" parent="38" name="MCC">
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="245" parent="38" name="MCC_DESC">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="246" parent="38" name="TPDU">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="247" parent="38" name="SENDER_BRANCH_CODE">
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="248" parent="38" name="RECVER_BRANCH_CODE">
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="249" parent="38" name="PLATFORM_FLG">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="250" parent="38" name="ROUTE_MODE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="251" parent="38" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="252" parent="38" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="253" parent="38" name="STATUS">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="254" parent="38" name="I_CHAN_MERCODE">
+        <columns>CHAN_MER_CODE</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="255" parent="38" name="I_CHAN_MERID">
+        <columns>CHAN_MER_ID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="256" parent="38" name="I_CHAN_SRV">
+        <columns>CHAN_SRV_NAME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="257" parent="38" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="258" parent="38" name="PRIMARY">
+        <columns>CHAN_INT_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="259" parent="39" name="id">
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="260" parent="39" name="userId">
+        <comment>用户ID (大Uid)</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="261" parent="39" name="name">
+        <comment>联系人名称</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="262" parent="39" name="telAreaCode">
+        <comment>电话区号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="263" parent="39" name="telNum">
+        <comment>座机号码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="264" parent="39" name="type">
+        <comment>类型：  1- 财务联系人 2- 区域联系人 3- 终端联系人 4-终端财务联系人 5- 公司联系人</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="265" parent="39" name="phone">
+        <comment>手机号码</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="266" parent="39" name="email">
+        <comment>邮箱</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="267" parent="39" name="status">
+        <comment>状态 1- 已启用 2- 已作废 3- 已过期</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="268" parent="39" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="269" parent="39" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="270" parent="39" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="271" parent="39" name="roletype">
+        <comment>角色类型 1.商户 2 代理商 3 业务员 4.C端用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="272" parent="39" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="273" parent="40" name="creditLimitsId">
+        <comment>信用额度</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="274" parent="40" name="ruleno">
+        <comment>规则号</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="275" parent="40" name="msmsauth">
+        <comment>短信认证金额</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <column id="276" parent="40" name="msingleamountfcmax">
+        <comment>单笔预计金额上限</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <column id="277" parent="40" name="mmonthamountmax">
+        <comment>月累计预计金额上限</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <column id="278" parent="40" name="mmulamountfcmax">
+        <comment>日累计预计金额上限</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <column id="279" parent="40" name="status">
+        <comment>商户交易状态：1--启用  0--停用</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="280" parent="40" name="maddperson">
+        <comment>添加人名</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="281" parent="40" name="creattime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="282" parent="40" name="updatetime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="283" parent="40" name="msingleamountmax">
+        <comment>单笔金额上限</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <column id="284" parent="40" name="msingleamountmin">
+        <comment>单笔金额下限</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <column id="285" parent="40" name="mmulamountmax">
+        <comment>日累计金额上限</comment>
+        <data-type>decimal(50)|0</data-type>
+      </column>
+      <key id="286" parent="40" name="PRIMARY">
+        <columns>creditLimitsId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="287" parent="41" name="relId">
+        <comment>商户与信用额度关联id</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(32)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="288" parent="41" name="userId">
+        <comment>大Uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="289" parent="41" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="290" parent="41" name="creditLimitsId">
+        <comment>信用额度id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="291" parent="41" name="createtime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="292" parent="41" name="updatetime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="293" parent="41" name="PRIMARY">
+        <columns>relId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="294" parent="42" name="CUID">
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="295" parent="42" name="UserId">
+        <comment>用户id(大Uid)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="296" parent="42" name="developersId">
+        <comment>发展者id(这个商户由随发展而来)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="297" parent="42" name="BUSINESSID">
+        <comment>产品id</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="298" parent="42" name="roletype">
+        <comment>角色 1.商户 2 代理商 3 业务员 4.C端用户 5.运维人员 6.系统管理员 7-普通用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="299" parent="42" name="CUNAME">
+        <comment>商户名称</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="300" parent="42" name="PASSWORD">
+        <comment>md5加密的密码</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="301" parent="42" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="302" parent="42" name="DATASOURCE">
+        <comment>数据来源</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="303" parent="42" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="304" parent="42" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="305" parent="42" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="306" parent="42" name="loginName">
+        <comment>登录名</comment>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="307" parent="42" name="email">
+        <comment>邮箱</comment>
+        <data-type>char(50)|0</data-type>
+      </column>
+      <column id="308" parent="42" name="phone">
+        <comment>手机号码</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="309" parent="42" name="nikeName">
+        <comment>昵称</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <index id="310" parent="42" name="I_CUNAME">
+        <columns>CUNAME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="311" parent="42" name="I_MODIFYTIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="312" parent="42" name="PRIMARY">
+        <columns>CUID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="313" parent="43" name="deviceId">
+        <comment>设备id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="314" parent="43" name="deviceNo">
+        <comment>机身号</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="315" parent="43" name="isOneMachine">
+        <comment>是否是一体机 1-是 2- 否</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="316" parent="43" name="bizType">
+        <comment>业务类型（1- 直连 2- 间接）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="317" parent="43" name="deviceModelNo">
+        <comment>设备型号（机型）</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="318" parent="43" name="fittingname">
+        <comment>配件表(fittingId::fittingId) 0-密码键盘 1-GPRS卡</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="319" parent="43" name="communication">
+        <comment>1-电话 2- 无线-移动 3- 网络 4-无线-联通 5-无线-电信</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="320" parent="43" name="d_address">
+        <comment>装机地址</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="321" parent="43" name="provincename">
+        <comment>省份名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="322" parent="43" name="cityname">
+        <comment>市级名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="323" parent="43" name="districtname">
+        <comment>区级名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="324" parent="43" name="provincesCode">
+        <comment>省份code</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="325" parent="43" name="cityCode">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="326" parent="43" name="districtCode">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="327" parent="43" name="latitude">
+        <comment>纬度</comment>
+        <data-type>decimal(12,6)|0</data-type>
+      </column>
+      <column id="328" parent="43" name="longitude">
+        <comment>经度</comment>
+        <data-type>decimal(12,6)|0</data-type>
+      </column>
+      <column id="329" parent="43" name="zone">
+        <comment>地区</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="330" parent="43" name="src">
+        <comment>来源ID</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="331" parent="43" name="d_status">
+        <comment>设备状态(1-未使用(撤机) 2-未使用(新) 3-已使用 4-已报废 5-未使用(换机) 6-换机锁定 7- 撤机锁定)</comment>
+        <data-type>varchar(8)|0</data-type>
+      </column>
+      <column id="332" parent="43" name="modifytime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="333" parent="43" name="createtime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="334" parent="43" name="command">
+        <comment>指令0-无指令 1-清机(解绑) 2-升级 3-资金冻结  4- 资金解冻 5-清机加资金冻结</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="335" parent="43" name="posPublicKey">
+        <comment>pos机公钥</comment>
+        <data-type>mediumtext|0</data-type>
+      </column>
+      <column id="336" parent="43" name="upgradeStartTime">
+        <comment>升级起始时间 20141009150522</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="337" parent="43" name="upgradeEndTime">
+        <comment>升级结束时间 20141009150522</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <key id="338" parent="43" name="PRIMARY">
+        <columns>deviceId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="339" parent="44" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="340" parent="44" name="deviceId">
+        <comment>设备id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="341" parent="44" name="fittingId">
+        <comment>配件id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="342" parent="44" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="343" parent="44" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="344" parent="44" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="345" parent="45" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(32)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="346" parent="45" name="sessionId">
+        <comment>消息标识</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="347" parent="45" name="messageType">
+        <comment>消息类型(req/res/mq)</comment>
+        <data-type>char(3)|0</data-type>
+      </column>
+      <column id="348" parent="45" name="dataSource">
+        <comment>来源(Mpay/TMS/MT)</comment>
+        <data-type>char(10)|0</data-type>
+      </column>
+      <column id="349" parent="45" name="content">
+        <data-type>mediumtext|0</data-type>
+      </column>
+      <column id="350" parent="45" name="createTime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="351" parent="45" name="serviceId">
+        <comment>服务id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <key id="352" parent="45" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="353" parent="46" name="MCCCODE">
+        <comment>MCCCODE</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="354" parent="46" name="MCCDESC">
+        <comment>MCCDESC</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="355" parent="46" name="INTERNAL_RATE">
+        <comment>内卡费率</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="356" parent="46" name="EXTERNAL_RATE">
+        <comment>外卡费率</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="357" parent="46" name="MAX_SINGLE_BILL">
+        <comment>单笔金额上限</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="358" parent="46" name="MIN_SINGLE_BILL">
+        <comment>单笔金额下限</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="359" parent="46" name="DAY_MAX_BILL">
+        <comment>日累积金额上限</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="360" parent="46" name="SMS_THRESHOLD">
+        <comment>短信认证金额</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="361" parent="46" name="CREDITCARD_RULE">
+        <comment>信用卡控制规则</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="362" parent="46" name="RISK_LEVEL">
+        <comment>行业风险等级</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="363" parent="46" name="RESK_LEVEL_MAKER">
+        <comment>风险等级设置人</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="364" parent="46" name="MCCTYPE">
+        <comment>行业类别</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="365" parent="46" name="COMMENT">
+        <comment>REMARK</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="366" parent="46" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="367" parent="46" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="368" parent="46" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="369" parent="46" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="370" parent="46" name="PRIMARY">
+        <columns>MCCCODE</columns>
+        <primary>1</primary>
+      </key>
+      <column id="371" parent="47" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(32)|0</data-type>
+      </column>
+      <column id="372" parent="47" name="userId">
+        <comment>大Uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="373" parent="47" name="networkType">
+        <comment>入网证件类型 1 营业执照 2 租赁合同</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="374" parent="47" name="receiptType">
+        <comment>收款类型  1- 对私法人收款  2- 对私授权收款  3- 对公收款</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="375" parent="47" name="yearcheckdate">
+        <comment>年检日期 格式: 2014-07-17</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="376" parent="47" name="businesscode">
+        <comment>营业执照号</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="377" parent="47" name="cerusedate">
+        <comment>证件更新日期格式: 2014-07-17</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="378" parent="47" name="licenseissueauthority">
+        <comment>发证机关</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="379" parent="47" name="begindate">
+        <comment>证件有效开始日期   格式: 2014-07-17</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="380" parent="47" name="enddate">
+        <comment>证件有效结束日期  (长期为 -1) 格式: 2014-07-17</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="381" parent="47" name="businessHoursBegin">
+        <comment>营业开始时间  格式：17:25:41</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="382" parent="47" name="businessHoursEnd">
+        <comment>营业结束时间格式：17:25:41</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="383" parent="47" name="licenseaddress">
+        <comment>营业执照地址</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="384" parent="47" name="businessscope">
+        <comment>经营范围</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="385" parent="47" name="taxid1">
+        <comment>国税</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="386" parent="47" name="taxid2">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="387" parent="47" name="companyNature">
+        <comment>企业性质   1- 国营企业 2- 集体企业 3- 股份合作企业</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="388" parent="47" name="enterprisecode">
+        <comment>企业代码</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="389" parent="47" name="cerperson">
+        <comment>法人</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="390" parent="47" name="cerpersontype">
+        <comment>法人证件类型 1-身份证2- 护照3- 军官证4-港澳台身份证</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="391" parent="47" name="cerpersonno">
+        <comment>法人证件号</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="392" parent="47" name="linktel">
+        <comment>法人联系电话</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="393" parent="47" name="cerpersonbegindate">
+        <comment>法人证件有效开始时间  格式：2014-07-08</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="394" parent="47" name="cerpersonenddate">
+        <comment>法人证件有效结束时间  格式：2014-07-08</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="395" parent="47" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="396" parent="47" name="createTime">
+        <data-type>timestamp|0</data-type>
+      </column>
+      <column id="397" parent="47" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="398" parent="47" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="399" parent="48" name="ratesid">
+        <comment>费率id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="400" parent="48" name="feerate">
+        <comment>费率</comment>
+        <data-type>decimal(64,5)|0</data-type>
+      </column>
+      <column id="401" parent="48" name="minfee">
+        <comment>保底手续费</comment>
+        <data-type>decimal(64)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="402" parent="48" name="maxfee">
+        <comment>封顶手续费</comment>
+        <data-type>decimal(64)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="403" parent="48" name="tradebaseamt">
+        <comment>约定交易基准金额</comment>
+        <data-type>decimal(64)|0</data-type>
+      </column>
+      <column id="404" parent="48" name="begindate">
+        <comment>开始日期  格式： 2014-07-15</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="405" parent="48" name="enddate">
+        <comment>结束日期     格式：  2014-07-15</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="406" parent="48" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="407" parent="48" name="cardflag">
+        <comment>卡类型 0-非外卡 1外卡</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="408" parent="48" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="409" parent="48" name="feetype">
+        <comment>费率类型: 1 交易费率;2 渠道费率</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="410" parent="48" name="opruser">
+        <comment>操作人员</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="411" parent="48" name="createtime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="412" parent="48" name="updatetime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="413" parent="48" name="industryCategory">
+        <comment>行业类别</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="414" parent="48" name="industrySubCategory">
+        <comment>行业类别_细类</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="415" parent="48" name="roleType">
+        <comment>1.商户 2 代理商 3 业务员 4.C端用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(1)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="416" parent="48" name="PRIMARY">
+        <columns>ratesid
+roleType</columns>
+        <primary>1</primary>
+      </key>
+      <column id="417" parent="49" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(32)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="418" parent="49" name="ratesid">
+        <comment>费率id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="419" parent="49" name="feerate">
+        <comment>费率</comment>
+        <data-type>decimal(64,5)|0</data-type>
+      </column>
+      <column id="420" parent="49" name="minfee">
+        <comment>保底手续费</comment>
+        <data-type>decimal(64)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="421" parent="49" name="maxfee">
+        <comment>封顶手续费</comment>
+        <data-type>decimal(64)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="422" parent="49" name="tradebaseamt">
+        <comment>约定交易基准金额</comment>
+        <data-type>decimal(64)|0</data-type>
+      </column>
+      <column id="423" parent="49" name="begindate">
+        <comment>开始日期  格式： 2014-07-15</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="424" parent="49" name="enddate">
+        <comment>结束日期     格式：  2014-07-15</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="425" parent="49" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废  4-待生效</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="426" parent="49" name="cardflag">
+        <comment>卡类型 0-非外卡 1外卡</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="427" parent="49" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="428" parent="49" name="feetype">
+        <comment>费率类型: 1 交易费率;2 渠道费率</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="429" parent="49" name="opruser">
+        <comment>操作人员</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="430" parent="49" name="createtime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="431" parent="49" name="updatetime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="432" parent="49" name="industryCategory">
+        <comment>行业类别</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="433" parent="49" name="industrySubCategory">
+        <comment>行业类别_细类</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="434" parent="49" name="effectiveTime">
+        <comment>生效时间  2014-09-19 23:59:59</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="435" parent="49" name="dataSource">
+        <comment>数据变更来源，定时生效时对应header中的srcServID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="436" parent="49" name="roleType">
+        <comment>1.商户 2 代理商 3 业务员 4.C端用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="437" parent="49" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="438" parent="50" name="id">
+        <comment>商户与费率关联id</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(32)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="439" parent="50" name="userId">
+        <comment>大Uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="440" parent="50" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="441" parent="50" name="ratesid">
+        <comment>费率id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="442" parent="50" name="createtime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="443" parent="50" name="updatetime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="444" parent="50" name="roleType">
+        <comment>1.商户 2 代理商 3 业务员 4.C端用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="445" parent="50" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="446" parent="51" name="ASSOCPK">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="447" parent="51" name="MERCHANTID">
+        <comment>商户号</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(20)|0</data-type>
+      </column>
+      <column id="448" parent="51" name="TERMINALID">
+        <comment>终端号</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(20)|0</data-type>
+      </column>
+      <column id="449" parent="51" name="deviceNo">
+        <comment>机身号</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="450" parent="51" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="451" parent="51" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="452" parent="51" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="453" parent="51" name="UserId">
+        <comment>用户id</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <index id="454" parent="51" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="455" parent="51" name="I_TERM_VID">
+        <columns>MERCHANTID
+TERMINALID
+deviceNo</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="456" parent="51" name="PRIMARY">
+        <columns>ASSOCPK</columns>
+        <primary>1</primary>
+      </key>
+      <key id="457" parent="51" name="I_TERM_VID">
+        <columns>MERCHANTID
+TERMINALID
+deviceNo</columns>
+        <underlying-index>I_TERM_VID</underlying-index>
+      </key>
+      <column id="458" parent="52" name="modelid">
+        <comment>机型id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="459" parent="52" name="model_code">
+        <comment>型号编码</comment>
+        <data-type>varchar(18)|0</data-type>
+      </column>
+      <column id="460" parent="52" name="model_name">
+        <comment>机型名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="461" parent="52" name="parentModeId">
+        <comment>上级型号ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="462" parent="52" name="modifytime">
+        <comment>修改时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="463" parent="52" name="createtime">
+        <comment>创建时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <key id="464" parent="52" name="PRIMARY">
+        <columns>modelid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="465" parent="53" name="orderid">
+        <comment>订单ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="466" parent="53" name="parentid">
+        <comment>父订单ID</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="467" parent="53" name="businessid">
+        <comment>产品ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="468" parent="53" name="ordertype">
+        <comment>订单类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="469" parent="53" name="serviceid">
+        <comment>业务ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="470" parent="53" name="orderstatus">
+        <comment>订单状态</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="471" parent="53" name="createtime">
+        <comment>创建时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="472" parent="53" name="modifytime">
+        <comment>修改时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="473" parent="53" name="status">
+        <comment>数据行状态</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="474" parent="53" name="PRIMARY">
+        <columns>orderid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="475" parent="54" name="orderid">
+        <comment>订单ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="476" parent="54" name="orderNum">
+        <comment>订单编号</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="477" parent="54" name="devamount">
+        <comment>设备数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="478" parent="54" name="orderstatus">
+        <comment>订单状态</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="479" parent="54" name="userId">
+        <comment>大Uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="480" parent="54" name="merchantid">
+        <comment>商户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="481" parent="54" name="roletype">
+        <comment>角色类型 1.商户 2 代理商 3 业务员 4.C端用户</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="482" parent="54" name="price">
+        <comment>价格</comment>
+        <data-type>decimal(64)|0</data-type>
+      </column>
+      <column id="483" parent="54" name="consigneeAddress">
+        <comment>收货人地址</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="484" parent="54" name="src">
+        <comment>来源ID</comment>
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="485" parent="54" name="remark">
+        <comment>备注(审核不通过原因等)</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="486" parent="54" name="createtime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="487" parent="54" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="488" parent="54" name="createrId">
+        <comment>创建者小uid</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <key id="489" parent="54" name="PRIMARY">
+        <columns>orderid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="490" parent="55" name="suborderid">
+        <comment>子订单ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="491" parent="55" name="subOrderNum">
+        <comment>子订单编号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="492" parent="55" name="orderid">
+        <comment>父订单ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="493" parent="55" name="bizType">
+        <comment>业务类型1-新装机,2-换机3-撤机 4-加机</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="494" parent="55" name="orderstatus">
+        <comment>订单状态</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(2)|0</data-type>
+      </column>
+      <column id="495" parent="55" name="machineid">
+        <comment>机身号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="496" parent="55" name="deviceId">
+        <comment>设备id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="497" parent="55" name="devmodel">
+        <comment>机型</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="498" parent="55" name="consignee">
+        <comment>收货人</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="499" parent="55" name="consignee_addr">
+        <comment>收货地址</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="500" parent="55" name="consignee_phone">
+        <comment>收货人联系电话</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="501" parent="55" name="subOrderIdByChangedMachine">
+        <comment>被换机器的子订单id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="502" parent="55" name="changeMachineType">
+        <comment>换机类型 1.换整个机器 2- 换配件</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="503" parent="55" name="changeMachineRelId">
+        <comment>换机的关联id （密码键盘id。。。）,id之间用“::”分割</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="504" parent="55" name="expressName">
+        <comment>快递名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="505" parent="55" name="monthlyRent">
+        <comment>月租</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="506" parent="55" name="trackingnum">
+        <comment>快递号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="507" parent="55" name="equipmentPprovidedForm">
+        <comment>机具提供形式（1- 购买 2- 租赁）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="508" parent="55" name="name">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="509" parent="55" name="price">
+        <data-type>decimal(10)|0</data-type>
+      </column>
+      <column id="510" parent="55" name="rentReceiptWay">
+        <comment>租金收取方式  1-提前收取 2- 延迟收取(机具提供形式为租赁时才有值)</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="511" parent="55" name="terminalExtendRoleType">
+        <comment>终端拓展角色类型（1- 业务员 2- 代理商）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="512" parent="55" name="rentalFrequency">
+        <comment>收租频率(机具提供形式为租赁时才有值)</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="513" parent="55" name="deposit">
+        <comment>押金</comment>
+        <data-type>decimal(10)|0</data-type>
+      </column>
+      <column id="514" parent="55" name="cardFee">
+        <comment>卡费</comment>
+        <data-type>decimal(10)|0</data-type>
+      </column>
+      <column id="515" parent="55" name="cardType">
+        <comment>卡类型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="516" parent="55" name="terminalDeveloperId">
+        <comment>终端发展者ID</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="517" parent="55" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="518" parent="55" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="519" parent="55" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="520" parent="55" name="isChangeMerchantInfo">
+        <comment>换机：是否变更商户资料(1-变更 2- 不变更)</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="521" parent="55" name="completeTime">
+        <comment>完成时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="522" parent="55" name="putInStorageType">
+        <comment>撤机：标识入库类型(1-嘉联入库 2- 代理商入库),嘉联入库还是代理商入库（指撤机之后，这个机器应该回到嘉联还是代理商那里因为有些机器是代理商买的，所以不用回到嘉联）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="523" parent="55" name="PRIMARY">
+        <columns>suborderid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="524" parent="56" name="auto_id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="525" parent="56" name="ordertype">
+        <comment>订单类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="526" parent="56" name="origstate">
+        <comment>更改前状态</comment>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="527" parent="56" name="newstate">
+        <comment>更新后状态</comment>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="528" parent="56" name="topic">
+        <comment>订阅消息topic</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="529" parent="56" name="msgtype">
+        <comment>推送消息类型：全订单or状态</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="530" parent="56" name="createtime">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="531" parent="56" name="modifytime">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="532" parent="56" name="status">
+        <comment>行数据状态</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="533" parent="56" name="PRIMARY">
+        <columns>ordertype</columns>
+        <primary>1</primary>
+      </key>
+      <column id="534" parent="57" name="ordertype">
+        <comment>订单类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="535" parent="57" name="businessid">
+        <comment>产品ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="536" parent="57" name="serviceid">
+        <comment>业务ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="537" parent="57" name="object">
+        <comment>订单物品标识(POS机，密码键盘 抽象的:商户帐号，代表商户入网)---若订购POS（主订单订单物品标识应该是一批POS机，子订单订单物品标识为POS机）</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="538" parent="57" name="PRIMARY">
+        <columns>ordertype</columns>
+        <primary>1</primary>
+      </key>
+      <column id="539" parent="58" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="540" parent="58" name="orderId">
+        <comment>订单id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="541" parent="58" name="modifySource">
+        <data-type>char(20)|0</data-type>
+      </column>
+      <column id="542" parent="58" name="origstate">
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="543" parent="58" name="newstate">
+        <mandatory>1</mandatory>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="544" parent="58" name="createtime">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="545" parent="58" name="status">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="546" parent="58" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="547" parent="59" name="partsid">
+        <comment>配件表id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="548" parent="59" name="partsCode">
+        <comment>配件编码</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="549" parent="59" name="partsname">
+        <comment>名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="550" parent="59" name="partsType">
+        <comment>配件类型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="551" parent="59" name="partsInMachineMode">
+        <comment>配件所属机型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="552" parent="59" name="modifyTime">
+        <comment>修改时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="553" parent="59" name="createTime">
+        <comment>创建时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <key id="554" parent="59" name="PRIMARY">
+        <columns>partsid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="555" parent="60" name="PAYACCID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="556" parent="60" name="ACCBANKNAME">
+        <comment>开户行名称</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="557" parent="60" name="ACCBANKNO">
+        <comment>开户行行号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="558" parent="60" name="ACCNO">
+        <comment>卡号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="559" parent="60" name="ACCNAME">
+        <comment>户名(持卡人)</comment>
+        <data-type>varchar(60)|0</data-type>
+      </column>
+      <column id="560" parent="60" name="SIGNEDNO">
+        <comment>合同号</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="561" parent="60" name="CREATETIME">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="562" parent="60" name="UPDATETIME">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="563" parent="60" name="PRIMARY">
+        <columns>PAYACCID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="564" parent="61" name="payChannelNo">
+        <comment>渠道标识</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="565" parent="61" name="payChannelName">
+        <comment>付款渠道名称</comment>
+        <data-type>varchar(80)|0</data-type>
+      </column>
+      <column id="566" parent="61" name="payType">
+        <comment>支付方式</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="567" parent="61" name="payAccountId">
+        <comment>付款账户ID</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="568" parent="61" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="569" parent="61" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="570" parent="61" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="571" parent="61" name="PRIMARY">
+        <columns>payChannelNo</columns>
+        <primary>1</primary>
+      </key>
+      <column id="572" parent="62" name="ACCOUNTNUM">
+        <comment>开户行</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="573" parent="62" name="UserId">
+        <comment>用户ID(大Uid)</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="574" parent="62" name="ACCOUNTTYPE">
+        <comment>账户类型 1-借记卡 2-贷记卡</comment>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="575" parent="62" name="BILLING_EMAIL">
+        <comment>收取账单的email</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="576" parent="62" name="CARDNO">
+        <comment>卡号</comment>
+        <data-type>char(30)|0</data-type>
+      </column>
+      <column id="577" parent="62" name="SIGNATURE">
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="578" parent="62" name="OWNER">
+        <comment>户名(持卡人)</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="579" parent="62" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="580" parent="62" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="581" parent="62" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="582" parent="62" name="PUBLIC_BANKACCOUNT">
+        <comment>收款账户类型（1- 对公/ 0-对私）</comment>
+        <data-type>varchar(24)|0</data-type>
+      </column>
+      <column id="583" parent="62" name="PERSON_IN_CHARGE">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="584" parent="62" name="PICIDENTITY">
+        <data-type>varchar(24)|0</data-type>
+      </column>
+      <column id="585" parent="62" name="remark">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="586" parent="62" name="accbankname">
+        <comment>开户行名称</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="587" parent="62" name="accbankno">
+        <comment>开户行行号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="588" parent="62" name="payaccid">
+        <comment>付方账号id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="589" parent="62" name="paychannel">
+        <comment>渠道标识</comment>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="590" parent="62" name="childbankname">
+        <comment>支行名称</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <key id="591" parent="62" name="PRIMARY">
+        <columns>ACCOUNTNUM
+UserId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="592" parent="63" name="BUSINESSID">
+        <comment>产品id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="593" parent="63" name="BUSINESSNAME">
+        <comment>产品名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="594" parent="63" name="IDCFGKEY">
+        <comment>IDCFG前缀</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="595" parent="63" name="DESCRIPTION">
+        <comment>描述</comment>
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="596" parent="63" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="597" parent="63" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="598" parent="63" name="STATUS">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="599" parent="63" name="I_BUSINESS_NAME">
+        <columns>BUSINESSNAME</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="600" parent="63" name="I_CREATETIME">
+        <columns>CREATETIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="601" parent="63" name="I_MODIFYTIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="602" parent="63" name="PRIMARY">
+        <columns>BUSINESSID</columns>
+        <primary>1</primary>
+      </key>
+      <key id="603" parent="63" name="I_BUSINESS_NAME">
+        <columns>BUSINESSNAME</columns>
+        <underlying-index>I_BUSINESS_NAME</underlying-index>
+      </key>
+      <column id="604" parent="64" name="id">
+        <comment>id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="605" parent="64" name="publicKey">
+        <comment>公钥</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="606" parent="64" name="privateKey">
+        <comment>私钥</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="607" parent="64" name="type">
+        <comment>类型 0-终端程序文件签名 1-TMS  2- SPOS</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="608" parent="64" name="effectiveStartDate">
+        <comment>有效起始日期 2014-06-25 14:34:48</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="609" parent="64" name="effectiveEndDate">
+        <comment>有效截至日期 2014-06-25 14:34:48</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="610" parent="64" name="status">
+        <comment>状态，0为未启用，1为启用</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="611" parent="64" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="612" parent="64" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="613" parent="64" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="614" parent="65" name="profitId">
+        <comment>分润Id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="615" parent="65" name="uid">
+        <comment>代理商id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="616" parent="65" name="profitCycle">
+        <comment>分润支付周期 1- 一个月 2- 三个月 3- 半年</comment>
+        <data-type>char(4)|0</data-type>
+      </column>
+      <column id="617" parent="65" name="fixedIncome">
+        <comment>固定收益</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="618" parent="65" name="fixedIncomeReceiptWay">
+        <comment>固定收益收取方式 1-按天 2- 按月</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="619" parent="65" name="taxRate">
+        <comment>税率</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="620" parent="65" name="receivedSecurityDeposit">
+        <comment>已收取保证金(单位：元)</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="621" parent="65" name="riskSecurityDeposit">
+        <comment>风险保证金（单位：元）</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="622" parent="65" name="eachLiquidationFee">
+        <comment>每笔清算费用</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="623" parent="65" name="initialFeeProfitRatio">
+        <comment>加盟费分润比</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="624" parent="65" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="625" parent="65" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="626" parent="65" name="type">
+        <comment>类型 1- 商户 2-代理商 3 - 个人</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="627" parent="65" name="startEffectiveTime">
+        <comment>开始生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="628" parent="65" name="endEffectiveTime">
+        <comment>结束生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="629" parent="65" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废   4- 待审核</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="630" parent="65" name="PRIMARY">
+        <columns>profitId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="631" parent="66" name="mainRuleId">
+        <comment>代理商id(小uid)</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="632" parent="66" name="uid">
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="633" parent="66" name="machineUseWay">
+        <comment> 机具使用方式 1- 租赁 2-购买</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="634" parent="66" name="profitRule">
+        <comment>分润规则 1-按固定分润比 2- 根据交易金额分阶 3. 按金额 4. 封顶交易提成</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="635" parent="66" name="profitRatio">
+        <comment>分润比 (分润规则： 1- 按固定分润比)</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="636" parent="66" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="637" parent="66" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="638" parent="66" name="startEffectiveTime">
+        <comment>开始生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="639" parent="66" name="endEffectiveTime">
+        <comment>结束生效时间</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="640" parent="66" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废   4- 待审核</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="641" parent="66" name="PRIMARY">
+        <columns>mainRuleId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="642" parent="67" name="id">
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="643" parent="67" name="mainRuleId">
+        <comment>分润主规则id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="644" parent="67" name="startATM">
+        <comment>起始金额</comment>
+        <data-type>decimal(40,5)|0</data-type>
+      </column>
+      <column id="645" parent="67" name="endATM">
+        <comment>结束金额</comment>
+        <data-type>decimal(40,5)|0</data-type>
+      </column>
+      <column id="646" parent="67" name="profitRatio">
+        <comment>分润比</comment>
+        <data-type>decimal(20,5)|0</data-type>
+      </column>
+      <column id="647" parent="67" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="648" parent="67" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="649" parent="67" name="status">
+        <comment>状态  1- 已启用 2- 已过期 3- 已作废   4- 待审核</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="650" parent="67" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="651" parent="68" name="SERVICEID">
+        <comment>业务id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="652" parent="68" name="BUSINESSID">
+        <comment>产品id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="653" parent="68" name="IDCFGPK">
+        <comment>IDCFG前缀</comment>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="654" parent="68" name="Comment">
+        <comment>描述</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="655" parent="68" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="656" parent="68" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="657" parent="68" name="STATUS">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="658" parent="68" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="659" parent="68" name="PRIMARY">
+        <columns>BUSINESSID
+SERVICEID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="660" parent="69" name="PROFIT_ROLE_ID">
+        <comment>分润角色ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="661" parent="69" name="PROFIT_ROLE_NAME">
+        <comment>分润角色名</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="662" parent="69" name="PROFIT_ROLE_DESC">
+        <comment>分润角色说明</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="663" parent="69" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="664" parent="69" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="665" parent="69" name="STATUS">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="666" parent="69" name="I_PROFIT_ROLE_NAME">
+        <columns>PROFIT_ROLE_NAME</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="667" parent="69" name="PRIMARY">
+        <columns>PROFIT_ROLE_ID</columns>
+        <primary>1</primary>
+      </key>
+      <key id="668" parent="69" name="I_PROFIT_ROLE_NAME">
+        <columns>PROFIT_ROLE_NAME</columns>
+        <underlying-index>I_PROFIT_ROLE_NAME</underlying-index>
+      </key>
+      <column id="669" parent="70" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="670" parent="70" name="termId">
+        <comment>终端id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="671" parent="70" name="appId">
+        <comment>应用id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="672" parent="70" name="merchantRateId">
+        <comment>商户费率ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="673" parent="70" name="accountNumId">
+        <comment>结算帐号ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="674" parent="70" name="cardclass">
+        <comment>卡种类 1 借记卡;2 贷记卡;空的话代表全部</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="675" parent="70" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="676" parent="70" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="677" parent="70" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="678" parent="71" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="679" parent="71" name="termId">
+        <comment>终端id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="680" parent="71" name="appId">
+        <comment>应用id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="681" parent="71" name="merchantRateId">
+        <comment>商户费率ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="682" parent="71" name="accountNumId">
+        <comment>结算帐号ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="683" parent="71" name="newMerchantRateId">
+        <comment>新商户费率ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="684" parent="71" name="newAccountNumId">
+        <comment>新结算帐号ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="685" parent="71" name="cardclass">
+        <comment>卡种类 1 借记卡;2 贷记卡;空的话代表全部</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="686" parent="71" name="status">
+        <comment>状态  1-待生效 2- 已过期</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="687" parent="71" name="effectiveTime">
+        <comment>生效时间  2014-09-19 23:59:59</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="688" parent="71" name="dataSource">
+        <comment>数据变更来源，定时生效时对应header中的srcServID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="689" parent="71" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="690" parent="71" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="691" parent="71" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="692" parent="72" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="693" parent="72" name="termId">
+        <comment>终端id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="694" parent="72" name="contactId">
+        <comment>联系人id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="695" parent="72" name="createTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="696" parent="72" name="updateTime">
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="697" parent="72" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="698" parent="73" name="terminalId">
+        <comment>终端id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="699" parent="73" name="terminalNo">
+        <comment>终端号</comment>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="700" parent="73" name="merchantNo">
+        <comment>商户号</comment>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="701" parent="73" name="bizType">
+        <comment>业务类型（1- 直连 2- 间接）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="702" parent="73" name="t_status">
+        <comment>终端状态(1-启用  2- 停用 3 待启用 4-注销 5-交易冻结)</comment>
+        <data-type>varchar(8)|0</data-type>
+      </column>
+      <column id="703" parent="73" name="appInfo">
+        <comment>应用信息(格式：   appId:merchantRateId_accountNumId|merchantRateId_accountNumId::appId:merchantRateId_accountNumId|merchantRateId_accountNumId)</comment>
+        <data-type>varchar(1024)|0</data-type>
+      </column>
+      <column id="704" parent="73" name="contactIds">
+        <comment>联系人ids(contactId::contactId)</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="705" parent="73" name="orderid">
+        <comment>主订单Id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="706" parent="73" name="suborderid">
+        <comment>子订单Id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="707" parent="73" name="deviceNo">
+        <comment>机身号</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="708" parent="73" name="deviceModelNo">
+        <comment>设备型号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="709" parent="73" name="mcc">
+        <comment>mcc</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="710" parent="73" name="isOneMachine">
+        <comment>是否是一体机 1-是 2- 否</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="711" parent="73" name="operationStartTime">
+        <comment>经营开始时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="712" parent="73" name="operationEndTime">
+        <comment>营业结束时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="713" parent="73" name="isPreAuthorization">
+        <comment>是否预授权 1-是 2- 否</comment>
+        <data-type>int(1)|0</data-type>
+      </column>
+      <column id="714" parent="73" name="updateTime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="715" parent="73" name="createTime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="716" parent="73" name="deviceId">
+        <comment>设备id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="717" parent="73" name="printMerchantNo">
+        <comment>打印商户号</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="718" parent="73" name="printMerchantName">
+        <comment>打印商户名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="719" parent="73" name="terminalDeveloperId">
+        <comment>终端发展者ID</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="720" parent="73" name="terminalExtendRoleType">
+        <comment>终端拓展角色类型（1- 业务员 2- 代理商）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="721" parent="73" name="contractedBankId">
+        <comment>签约银行id</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="722" parent="73" name="cardType">
+        <comment>卡类型 (1- 内卡 2- 外卡)</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="723" parent="73" name="agentId">
+        <comment>代理商id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="724" parent="73" name="tradeId">
+        <comment>交易户ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="725" parent="73" name="smallCreditsFlag">
+        <comment>小额标识  0-否;1-是</comment>
+        <data-type>varchar(1)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="726" parent="73" name="PRIMARY">
+        <columns>terminalId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="727" parent="74" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(32)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="728" parent="74" name="terminalId">
+        <comment>终端id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="729" parent="74" name="terminalNo">
+        <comment>终端号</comment>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="730" parent="74" name="merchantNo">
+        <comment>商户号</comment>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="731" parent="74" name="bizType">
+        <comment>业务类型（1- 直连 2- 间接）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="732" parent="74" name="t_status">
+        <comment>终端状态(1-启用  2- 停用 3 待启用 4-注销)</comment>
+        <data-type>varchar(8)|0</data-type>
+      </column>
+      <column id="733" parent="74" name="appInfo">
+        <comment>应用信息(格式：   appId:merchantRateId_accountNumId|merchantRateId_accountNumId::appId:merchantRateId_accountNumId|merchantRateId_accountNumId)</comment>
+        <data-type>varchar(1024)|0</data-type>
+      </column>
+      <column id="734" parent="74" name="contactIds">
+        <comment>联系人ids(contactId::contactId)</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="735" parent="74" name="orderid">
+        <comment>主订单Id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="736" parent="74" name="suborderid">
+        <comment>子订单Id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="737" parent="74" name="deviceNo">
+        <comment>机身号</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="738" parent="74" name="deviceModelNo">
+        <comment>设备型号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="739" parent="74" name="mcc">
+        <comment>mcc</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="740" parent="74" name="isOneMachine">
+        <comment>是否是一体机 1-是 2- 否</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="741" parent="74" name="operationStartTime">
+        <comment>经营开始时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="742" parent="74" name="operationEndTime">
+        <comment>营业结束时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="743" parent="74" name="isPreAuthorization">
+        <comment>是否预授权 1-是 2- 否</comment>
+        <data-type>int(1)|0</data-type>
+      </column>
+      <column id="744" parent="74" name="updateTime">
+        <comment>修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="745" parent="74" name="createTime">
+        <comment>创建时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="746" parent="74" name="deviceId">
+        <comment>设备id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="747" parent="74" name="printMerchantNo">
+        <comment>打印商户号</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="748" parent="74" name="printMerchantName">
+        <comment>打印商户名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="749" parent="74" name="terminalDeveloperId">
+        <comment>终端发展者ID</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="750" parent="74" name="terminalExtendRoleType">
+        <comment>终端拓展角色类型（1- 业务员 2- 代理商）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="751" parent="74" name="contractedBankId">
+        <comment>签约银行id</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="752" parent="74" name="cardType">
+        <comment>卡类型 (1- 内卡 2- 外卡)</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="753" parent="74" name="agentId">
+        <comment>代理商id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="754" parent="74" name="tradeId">
+        <comment>交易户ID</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <key id="755" parent="74" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="756" parent="75" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(18)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="757" parent="75" name="deviceNo">
+        <comment>机身号</comment>
+        <data-type>bigint(50)|0</data-type>
+      </column>
+      <column id="758" parent="75" name="terminalNo">
+        <comment>终端号</comment>
+        <data-type>bigint(18)|0</data-type>
+      </column>
+      <column id="759" parent="75" name="merchantNo">
+        <comment>商户号</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="760" parent="75" name="packetSize">
+        <comment>数据包大小</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="761" parent="75" name="transactionType">
+        <comment>交易类型:签到 签退 结算 消费</comment>
+        <data-type>varchar(12)|0</data-type>
+      </column>
+      <column id="762" parent="75" name="deviceModelNo">
+        <comment>设备型号(外键)</comment>
+        <data-type>bigint(18)|0</data-type>
+      </column>
+      <column id="763" parent="75" name="transactionTime">
+        <comment>交易时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <key id="764" parent="75" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="765" parent="76" name="trdtypeid">
+        <comment>交易类型id</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(18)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="766" parent="76" name="trdtypename">
+        <comment>类型名称</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="767" parent="76" name="trdtypeinfo">
+        <comment>类型值</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <key id="768" parent="76" name="PRIMARY">
+        <columns>trdtypeid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="769" parent="77" name="UID">
+        <comment>大UID</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="770" parent="77" name="UNAME">
+        <data-type>varchar(150)|0</data-type>
+      </column>
+      <column id="771" parent="77" name="userAlias">
+        <comment>用户别名</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="772" parent="77" name="password">
+        <comment>密码md5加密</comment>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="773" parent="77" name="COMPANY">
+        <comment>公司名</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="774" parent="77" name="EMAIL">
+        <comment>个人email地址</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="775" parent="77" name="dataSource">
+        <comment>数据来源（产品id）</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="776" parent="77" name="fixedTelNum">
+        <comment>固定号码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="777" parent="77" name="TELNUM">
+        <comment>手机号码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="778" parent="77" name="certificateType">
+        <comment>证件类型 1-身份证2- 护照3- 军官证4-港澳台身份证</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="779" parent="77" name="certificateNum">
+        <comment>证件号码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="780" parent="77" name="MODIFYTIME">
+        <comment>数据修改时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="781" parent="77" name="CREATETIME">
+        <comment>数据插入时间</comment>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="782" parent="77" name="STATUS">
+        <comment>状态 0 未激活  1 激活  2 注销</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <key id="783" parent="77" name="PRIMARY">
+        <columns>UID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="784" parent="78" name="SETTELMENTUNIT">
+        <comment>清算单元应该和会计科目进行绑定，实现虚户到实户资金流动的路由</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="785" parent="78" name="BANKACCNUM">
+        <comment>开户行(实户id)</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="786" parent="78" name="virAccountId">
+        <comment>虚户(资金户)id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="787" parent="78" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="788" parent="78" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="789" parent="78" name="STATUS">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="790" parent="78" name="uid">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <key id="791" parent="78" name="PRIMARY">
+        <columns>SETTELMENTUNIT</columns>
+        <primary>1</primary>
+      </key>
+      <column id="792" parent="79" name="VID">
+        <comment>vid</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="793" parent="79" name="TENTITY_ID">
+        <comment>小uid</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="794" parent="79" name="TENTITY_TYPE">
+        <comment>角色类型（1.商户 2 代理商 3 业务员 4.C端用户）</comment>
+        <data-type>char(1)|0</data-type>
+      </column>
+      <column id="795" parent="79" name="BUSINESSID">
+        <comment>产品id</comment>
+        <data-type>char(32)|0</data-type>
+      </column>
+      <column id="796" parent="79" name="SERVICEID">
+        <comment>业务id</comment>
+        <mandatory>1</mandatory>
+        <data-type>char(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="797" parent="79" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="798" parent="79" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="799" parent="79" name="STATUS">
+        <comment>状态</comment>
+        <data-type>char(1)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="800" parent="79" name="PRIMARY">
+        <columns>VID
+SERVICEID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="801" parent="80" name="PKID">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="802" parent="80" name="VID">
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="803" parent="80" name="T_PARTICIPANT_ID">
+        <comment>交易主体：个人，商户，代理商，业务员等，uid</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="804" parent="80" name="BUSINESSID">
+        <comment>产品ID</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="805" parent="80" name="SERVICEID">
+        <comment>业务ID</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="806" parent="80" name="ACCOUNTUSAGE">
+        <comment>备付金or结算账号or...</comment>
+        <data-type>char(8)|0</data-type>
+      </column>
+      <column id="807" parent="80" name="ACCOUNTID">
+        <comment>虚户ID</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="808" parent="80" name="MODIFYTIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>CURRENT_TIMESTAMP</default-expression>
+      </column>
+      <column id="809" parent="80" name="CREATETIME">
+        <mandatory>1</mandatory>
+        <data-type>timestamp|0</data-type>
+        <default-expression>&apos;0000-00-00 00:00:00&apos;</default-expression>
+      </column>
+      <column id="810" parent="80" name="STATE">
+        <data-type>char(1)|0</data-type>
+      </column>
+      <index id="811" parent="80" name="I_MODITIME">
+        <columns>MODIFYTIME</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="812" parent="80" name="I_TENTITY_VACCOUNT_COVER">
+        <columns>T_PARTICIPANT_ID
+BUSINESSID
+SERVICEID
+ACCOUNTUSAGE</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="813" parent="80" name="I_VACCOUNT">
+        <columns>ACCOUNTID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="814" parent="80" name="PRIMARY">
+        <columns>PKID</columns>
+        <primary>1</primary>
+      </key>
+      <key id="815" parent="80" name="I_TENTITY_VACCOUNT_COVER">
+        <columns>T_PARTICIPANT_ID
+BUSINESSID
+SERVICEID
+ACCOUNTUSAGE</columns>
+        <underlying-index>I_TENTITY_VACCOUNT_COVER</underlying-index>
+      </key>
+    </database-model>
+  </data-source>
+</component>
