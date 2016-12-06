@@ -31,7 +31,7 @@ public class MachineIdSearch {
 //            System.out.println(m.group(1));
 //        }
 
-        String filePath = "C:\\Users\\chengshaojin\\Desktop\\22.6\\logic.logconfig";
+        String filePath = "C:\\Users\\chengshaojin\\Desktop\\22.6\\logic.log";
         String storePath = "C:\\Users\\chengshaojin\\Desktop\\22.6\\machineIds.txt";
         String key = "终端数据不存在！";
         MachineIdSearch s = new MachineIdSearch();

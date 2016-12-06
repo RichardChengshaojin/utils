@@ -1,0 +1,27 @@
+<?xml version= "1.0" encoding ="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "\\org\\apache\\log4j\\xml\\log4j.dtd">
+<log4j:configuration>
+
+    <!--控制台-->
+    <appender name= "Console" class ="org.apache.log4j.ConsoleAppender">
+        <layout class= "org.apache.log4j.PatternLayout" >
+            <param name= "ConversionPattern" value ="[%d{yy-MM-dd#HH:mm:ss:SSS}][%c-%m] %m%n" />
+        </layout>
+    </appender>
+
+    <!--文件-->
+    <appender name= "fileAppender" class ="org.apache.log4j.FileAppender">
+        <param name= "file" value="c:/Users/chengshaojin/Desktop/loghtml.html" />
+        <layout class="org.apache.log4j.HTMLLayout"/>
+    </appender>
+
+    <!--此处指定到了具体的类 -->
+    <!--<logger name= "com.logtest.main.CommonLog4j" >
+        <level value= "debug" />
+        <appender-ref ref= "fileAppender" />
+    </logger>-->
+    <root>
+        <level value= "trace" />
+        <appender-ref ref= "Console" />
+    </root>
+</log4j:configuration>
