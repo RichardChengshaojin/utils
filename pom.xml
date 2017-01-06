@@ -13,6 +13,7 @@
         <module>utils-common</module>
         <module>java-basic</module>
         <module>utils-web</module>
+        <module>pure-web</module>
     </modules>
 
     <repositories>
