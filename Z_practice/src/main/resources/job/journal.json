@@ -1,0 +1,65 @@
+{
+  "service_id": "serviceId",
+  "useCache": "useCache",
+  "start": "start",
+  "tableName": "tableName",
+  "rows": "rows",
+  "paramsMap": {
+    "DATA": [
+      {
+        "F_L_VOUCH_NO": "lVouchNo"
+      },
+      {
+        "F_ACCOUNTING_DATE_begin": "clearBeginDate"
+      },
+      {
+        "F_ACCOUNTING_DATE_end": "clearEndDate"
+      },
+      {
+        "F_L_TRADE_TIME_begin": "tradeBeginDate"
+      },
+      {
+        "F_L_TRADE_TIME_end": "tradeEndDate"
+      },
+      {
+        "F_L_TRADE_AMT_begin": "amountMin"
+      },
+      {
+        "F_L_TRADE_AMT_end": "amountMax"
+      },
+      {
+        "F_T_PRINT_MERCH_NO": "printMerchantNo"
+      },
+      {
+        "F_L_MERCH_NO": "lMerchantNo"
+      },
+      {
+        "F_L_MERCH_NAME": "lMerchantName"
+      },
+      {
+        "F_L_TERM_NO": "lTerminalNo"
+      },
+      {
+        "F_M_AGENT_NAME": "agent"
+      },
+      {
+        "F_L_TRADE_BANK_CARD_NO": "cardNo"
+      },
+      {
+        "F_L_MERCH_TYPE": "mcc"
+      },
+      {
+        "F_L_RESP_CODE": "lRespCode"
+      },
+      {
+        "DATA": [
+          {
+            "F_L_TRADE_TYPE": "tradeType"
+          }
+        ],
+        "OPR": "OR"
+      }
+    ],
+    "OPR": "AND"
+  }
+}
