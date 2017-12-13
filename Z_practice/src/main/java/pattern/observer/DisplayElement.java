@@ -8,5 +8,5 @@ package pattern.observer;
  */
 public interface DisplayElement {
 
-    void display(float humidity, float temperature, float pressure);
+    void display();
 }

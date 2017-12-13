@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xgd.tms.db.dao.WfPosOrderMapper" >
+  <resultMap id="BaseResultMap" type="com.xgd.tms.db.entity.WfPosOrder" >
+    <constructor >
+      <arg column="ID" jdbcType="DECIMAL" javaType="java.math.BigDecimal" />
+      <arg column="PROC_ID" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="POS_ORDER_ID" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="APPLY_MAN_ID" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="JL_AUDIT" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="JL_REMARK" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="XGD_AUDIT" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="XGD_REMARK" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="EXPRESS_COMPANY" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="EXPRESS_NO" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="APPLY_TIME" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="JL_TIME" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="XGD_TIME" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="EXPRESS_TIME" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <insert id="insert" parameterType="com.xgd.tms.db.entity.WfPosOrder" >
+    insert into T_WF_POS_ORDER (ID, PROC_ID, POS_ORDER_ID, 
+      APPLY_MAN_ID, JL_AUDIT, JL_REMARK, 
+      XGD_AUDIT, XGD_REMARK, EXPRESS_COMPANY, 
+      EXPRESS_NO, APPLY_TIME, JL_TIME, 
+      XGD_TIME, EXPRESS_TIME)
+    values (#{id,jdbcType=DECIMAL}, #{procId,jdbcType=VARCHAR}, #{posOrderId,jdbcType=VARCHAR}, 
+      #{applyManId,jdbcType=VARCHAR}, #{jlAudit,jdbcType=CHAR}, #{jlRemark,jdbcType=VARCHAR}, 
+      #{xgdAudit,jdbcType=CHAR}, #{xgdRemark,jdbcType=VARCHAR}, #{expressCompany,jdbcType=VARCHAR}, 
+      #{expressNo,jdbcType=VARCHAR}, #{applyTime,jdbcType=TIMESTAMP}, #{jlTime,jdbcType=TIMESTAMP}, 
+      #{xgdTime,jdbcType=TIMESTAMP}, #{expressTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xgd.tms.db.entity.WfPosOrder" >
+    insert into T_WF_POS_ORDER
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="procId != null" >
+        PROC_ID,
+      </if>
+      <if test="posOrderId != null" >
+        POS_ORDER_ID,
+      </if>
+      <if test="applyManId != null" >
+        APPLY_MAN_ID,
+      </if>
+      <if test="jlAudit != null" >
+        JL_AUDIT,
+      </if>
+      <if test="jlRemark != null" >
+        JL_REMARK,
+      </if>
+      <if test="xgdAudit != null" >
+        XGD_AUDIT,
+      </if>
+      <if test="xgdRemark != null" >
+        XGD_REMARK,
+      </if>
+      <if test="expressCompany != null" >
+        EXPRESS_COMPANY,
+      </if>
+      <if test="expressNo != null" >
+        EXPRESS_NO,
+      </if>
+      <if test="applyTime != null" >
+        APPLY_TIME,
+      </if>
+      <if test="jlTime != null" >
+        JL_TIME,
+      </if>
+      <if test="xgdTime != null" >
+        XGD_TIME,
+      </if>
+      <if test="expressTime != null" >
+        EXPRESS_TIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=DECIMAL},
+      </if>
+      <if test="procId != null" >
+        #{procId,jdbcType=VARCHAR},
+      </if>
+      <if test="posOrderId != null" >
+        #{posOrderId,jdbcType=VARCHAR},
+      </if>
+      <if test="applyManId != null" >
+        #{applyManId,jdbcType=VARCHAR},
+      </if>
+      <if test="jlAudit != null" >
+        #{jlAudit,jdbcType=CHAR},
+      </if>
+      <if test="jlRemark != null" >
+        #{jlRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="xgdAudit != null" >
+        #{xgdAudit,jdbcType=CHAR},
+      </if>
+      <if test="xgdRemark != null" >
+        #{xgdRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="expressCompany != null" >
+        #{expressCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="expressNo != null" >
+        #{expressNo,jdbcType=VARCHAR},
+      </if>
+      <if test="applyTime != null" >
+        #{applyTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="jlTime != null" >
+        #{jlTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="xgdTime != null" >
+        #{xgdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="expressTime != null" >
+        #{expressTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+</mapper>

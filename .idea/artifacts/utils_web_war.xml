@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="utils-web:war">
+    <output-path>$PROJECT_DIR$/W_concentrated_web/target</output-path>
+    <root id="archive" name="concentrated_web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="utils-web:war exploded" />
+    </root>
+  </artifact>
+</component>

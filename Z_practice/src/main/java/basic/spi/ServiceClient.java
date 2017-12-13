@@ -12,7 +12,7 @@ public class ServiceClient {
         ISearch searchService = ServiceManager.getService("db");
         if (null != searchService) {
             System.out.println(searchService.name());
-            searchService.search("mine");
+            searchService.search("搜索关键字");
         }
     }
 }
